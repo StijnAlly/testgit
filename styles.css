@@ -1,0 +1,132 @@
+nav {
+    text-align: right;
+    margin: 30px 30px;
+}
+
+nav a {
+    padding-left: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background: #fff;
+    color: #202124;
+    display: block;
+  }
+
+  body, html {
+    font-size: small;
+    height: 100%;
+    width: 100%;
+    font-family: arial, sans-serif;
+    color: black;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.search_form {
+    text-align: center;
+}
+
+.oneGoogleBar {
+    border-radius: 25px;
+    height: 30px;
+    border-color: #dcdcdc;
+    border-width: 1px;
+    padding: 3px 40px;
+    width: 60%;
+    max-width: 450px;
+}
+
+.oneGoogleBar:hover {
+    box-shadow: 0px 1px 5px 2px #dcdcdc;
+}
+
+.googleButton {
+    background-color: #f6f6f6;
+    border-style: hidden;
+    border-width: 1px;
+    border-color: #dcdcdc;
+    border-radius: 5px;
+    height: 30px;
+    padding: 3px 10px;
+    margin: 3px;
+}
+
+.googleButton:hover {
+    border-style: solid;
+}
+ 
+#container {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+    width: 100%;
+}
+
+img.googlelogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    height: 80px;
+}
+
+.aSInput {
+    border-radius: 0px;
+    height: 20px;
+    border-color: #dcdcdc;
+    border-width: 1px;
+    padding: 3px 10px;
+    width: 500px;
+    max-width: 50%;
+}
+
+.top_aS {
+    border-bottom-style: solid;
+    border-top-style: solid;
+    display: block;
+    border-width: 1px;
+    font-size: larger;
+    padding-left: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+.aSButton {
+    background-color: #1f2df5;
+    border-style: hidden;
+    border-width: 1px;
+    border-color:  #0915be;;
+    border-radius: 5px;
+    height: 30px;
+    padding: 3px 10px;
+    color:white;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 8px;
+    font-weight: bold;
+}
+
+.aSButton:hover {
+    background-color: #101edb;
+    border-color:  #0915be;
+}
